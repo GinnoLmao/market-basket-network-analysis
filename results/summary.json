@@ -1,0 +1,35 @@
+{
+  "run_kind": "Corrected publication pipeline; newly recomputed from local acquired data",
+  "input_sha256": "f1e604358349a4f76e1cd9e7d7a8b13cc6d376a6e8cf16b91a8ee862c57a0ec0",
+  "transactions": 7501,
+  "unique_items": 119,
+  "initial_min_support": 0.003,
+  "initial_itemsets": 1443,
+  "initial_positive_rules_lift_ge_1": 4880,
+  "extended_min_support": 0.001,
+  "extended_itemsets": 6778,
+  "extended_rules": 41996,
+  "extended_negative_rules_lift_lt_1": 1406,
+  "network_nodes": 80,
+  "network_edges": 281,
+  "max_absolute_metric_check_error": 0.0,
+  "strong_negative_example": {
+    "antecedent": [
+      "olive oil"
+    ],
+    "consequent": [
+      "cookies"
+    ],
+    "support": 0.001599786695107319,
+    "confidence": 0.024291497975708502,
+    "lift": 0.3021733438072794
+  },
+  "versions": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "mlxtend": "0.25.0",
+    "networkx": "3.7",
+    "matplotlib": "3.11.2"
+  },
+  "interpretation": "Lift below 1 means less co-occurrence than independence predicts. Associations and network centrality do not establish causation or sales uplift."
+}

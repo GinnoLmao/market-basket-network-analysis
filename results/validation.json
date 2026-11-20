@@ -1,0 +1,25 @@
+{
+  "validated_date": "2026-11-21",
+  "python": "3.12.10",
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "full_dataset_run": {
+    "passed": true,
+    "transactions": 7501,
+    "rules_checked_initial_and_extended": true,
+    "maximum_metric_error": 0.0
+  },
+  "notebook_validation": {
+    "clean_code_cells_executed": 3,
+    "execution_mode": "Direct code-cell execution in the validated interpreter",
+    "passed": true,
+    "jupyter_kernel_launch": "NotebookClient startup hung in the sandbox and was interrupted; a Jupyter-kernel execution is not claimed"
+  },
+  "original_notebook_and_input_hashes_unchanged": true,
+  "raw_data_redistributed": false,
+  "figures_visually_reviewed": true,
+  "public_notebook_outputs": "Cleared; raw records not embedded"
+}

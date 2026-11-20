@@ -1,0 +1,14 @@
+{
+  "original_notebook_relative_path": "Data Mining/Module 4/Module_4_Arostique.ipynb",
+  "original_sha256": "bbf97aadd51d77b3bc7ccb40d7992b686eff7db0f6e446ab3fb07b7e6492063e",
+  "original_unchanged": true,
+  "input_files": [
+    {
+      "source_relative_path": "Data Mining/Module 4/Market_Basket_Optimisation.csv",
+      "sha256": "f1e604358349a4f76e1cd9e7d7a8b13cc6d376a6e8cf16b91a8ee862c57a0ec0",
+      "redistributed": false
+    }
+  ],
+  "preparation": "New modular implementation, tests and clean entry-point notebook; original notebook archived only in ignored local data directory",
+  "prepared_date": "2026-11-20"
+}
